@@ -49,8 +49,8 @@ Let’s collaborate and build something meaningful.
 -->
 
 ## 📫 Let’s Connect
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?logo=linkedin)]([https://linkedin.com/in/yourname](https://www.linkedin.com/in/beatrice-nakabanda-3a1449151/))
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:nakabandabeatrice@gmail.com)
-[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?logo=twitter)]([https://twitter.com/yourhandle](https://x.com/NakabandaB))
+<a href="[https://linkedin.com/in/yourprofile](https://www.linkedin.com/in/beatrice-nakabanda-3a1449151/)"><img src="https://img.icons8.com/color/48/000000/linkedin.png" alt="LinkedIn" width="30"/></a>
+<a href="mailto:nakabandabeatrice@gmail.com"><img src="https://img.icons8.com/color/48/000000/gmail.png" alt="Email" width="30"/></a>
+<a href="[https://twitter.com/yourhandle](https://x.com/NakabandaB)"><img src="https://img.icons8.com/color/48/000000/twitter.png" alt="Twitter" width="30"/></a>
 
 
