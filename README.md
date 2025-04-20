@@ -1,6 +1,6 @@
-# 👋 Hello!
+# Hola 👋
 
-I’m Beatrice Nakabanda — a passionate Mobile App Developer with a heart for impact and a mind for innovation.
+I’m Beatrice Nakabanda, a passionate Mobile App Developer with a heart for impact and a mind for innovation.
 
 I specialise in building high-performance, human-centred mobile applications using Kotlin. Whether it's powering fintech solutions or designing inclusive digital experiences, I’m driven by the belief that technology should be a tool for empowerment, especially in underserved communities.
 
@@ -29,11 +29,11 @@ Let’s collaborate and build something meaningful.
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)  
 
 
-### 🔧 Version Control  
+## 🔧 Version Control  
 ![GitHub](https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white)
 
 
-### 📦 Deployment & Distribution Platforms  
+## 📦 Deployment & Distribution Platforms  
 ![Google Play Store](https://img.shields.io/badge/Google_Play-414141?logo=google-play&logoColor=white)
 ![Hexnode](https://img.shields.io/badge/Hexnode-191A1B?logoColor=white&color=333333)
 
