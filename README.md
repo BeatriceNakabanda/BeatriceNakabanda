@@ -23,23 +23,19 @@ Let’s collaborate and build something meaningful.
 ![MVVM](https://img.shields.io/badge/MVVM_Architecture-4B4B4B?logo=architecture&logoColor=white)  
 ![Room](https://img.shields.io/badge/Room_Database-7E57C2?logo=sqlite&logoColor=white)  
 
---- 
-
 ### 🧩 Other Programming and Styling Languages  
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)  
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white)  
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)  
 
----
 
 ### 🔧 Version Control  
 ![GitHub](https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white)
 
----
 
 ### 📦 Deployment & Distribution Platforms  
-![Heroku](https://img.shields.io/badge/Heroku-430098?logo=heroku&logoColor=white)  
 ![Google Play Store](https://img.shields.io/badge/Google_Play-414141?logo=google-play&logoColor=white)
+![Hexnode](https://img.shields.io/badge/Hexnode-191A1B?logoColor=white&color=333333)
 
 
 
