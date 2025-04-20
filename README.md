@@ -1,5 +1,5 @@
 # 👋 Hello!
----
+
 I’m Beatrice Nakabanda — a passionate Mobile App Developer with a heart for impact and a mind for innovation.
 
 I specialise in building high-performance, human-centred mobile applications using Kotlin. Whether it's powering fintech solutions or designing inclusive digital experiences, I’m driven by the belief that technology should be a tool for empowerment, especially in underserved communities.
@@ -10,7 +10,7 @@ When I’m not coding or mentoring, I’m exploring the world around me, explori
 
 Let’s collaborate and build something meaningful.
 
----
+
 ## 🚀 Technologies
 
 ### 📱 Mobile Development  
