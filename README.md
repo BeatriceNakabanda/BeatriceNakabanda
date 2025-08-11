@@ -22,7 +22,7 @@ Let’s collaborate and build something meaningful.
 ![Retrofit](https://img.shields.io/badge/Retrofit-4285F4?logo=android&logoColor=white)  
 ![MVVM](https://img.shields.io/badge/MVVM_Architecture-4B4B4B?logo=architecture&logoColor=white)  
 ![Room](https://img.shields.io/badge/Room_Database-7E57C2?logo=sqlite&logoColor=white)  
-![Jetpack Compose](https://img.shields.io/badge/Room_Database-7E57C2?logo=sqlite&logoColor=white)  
+![Jetpack Compose](https://img.shields.io/badge/Jetpack_Compose-4285F4?logo=jetpack-compose&logoColor=white)  
 
 
 ### 🧩 Other Programming and Styling Languages  
