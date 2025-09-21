@@ -2,7 +2,7 @@ name: Update GitHub Stats
 
 on:
   schedule:
-    - cron: '0 0 * * *' # runs daily at midnight
+    - cron: '0 0 * * *' # runs daily at midnight UTC
   workflow_dispatch: # allows manual run
 
 jobs:
@@ -11,14 +11,21 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
+      - name: Configure Git
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+
       - name: Generate Top Languages Stats
         run: |
-          curl -o top-langs.svg "https://github-readme-stats.vercel.app/api/top-langs/?username=BeatriceNakabanda&layout=compact&theme=tokyonight&token=${{ secrets.GH_TOKEN }}"
+          curl -o top-langs.svg "https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&theme=tokyonight&token=${{ secrets.GH_TOKEN }}"
 
-      - name: Commit and push
+      - name: Commit and Push
         run: |
-          git config --local user.email "nakabandabeatrice@gmail.com"
-          git config --local user.name "Beatrice Nakabanda"
           git add top-langs.svg
-          git commit -m "Update GitHub top languages" || echo "No changes to commit"
-          git push
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Update GitHub top languages"
+            git push
+          fi
