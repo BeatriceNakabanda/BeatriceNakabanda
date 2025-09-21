@@ -39,6 +39,9 @@ Let’s collaborate and build something meaningful.
 ![Google Play Store](https://img.shields.io/badge/Google_Play-414141?logo=google-play&logoColor=white)
 ![Hexnode](https://img.shields.io/badge/Hexnode-191A1B?logoColor=white&color=333333)
 
+### 🛠️ Most Used Languages
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=BeatriceNakabanda&layout=compact&theme=tokyonight)
+
 
 
 <!-- ## 🚀 My Projects
