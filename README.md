@@ -40,7 +40,8 @@ Let’s collaborate and build something meaningful.
 ![Hexnode](https://img.shields.io/badge/Hexnode-191A1B?logoColor=white&color=333333)
 
 ### 🛠️ Most Used Languages
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=BeatriceNakabanda&layout=compact&theme=tokyonight)
+<!--![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=BeatriceNakabanda&layout=compact&theme=tokyonight) -->
+![Top Languages](top-langs.svg)
 
 
 
