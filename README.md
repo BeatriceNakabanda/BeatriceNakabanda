@@ -41,9 +41,7 @@ Let’s collaborate and build something meaningful.
 
 ### 🛠️ Most Used Languages
 <!--![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=BeatriceNakabanda&layout=compact&theme=tokyonight) -->
-![Top Languages](top-langs.svg)
-
-
+![Top Languages](https://raw.githubusercontent.com/BeatriceNakabanda/BeatriceNakabanda/stats-update/top-langs.svg)
 
 <!-- ## 🚀 My Projects
 - [FinTrack](https://github.com/beatricenakabanda/fintrack): Flutter finance dashboard.  
