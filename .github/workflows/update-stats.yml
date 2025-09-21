@@ -10,11 +10,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-
-      - name: Configure Git
-        run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
+        with:
+          persist-credentials: false
 
       - name: Generate Top Languages Stats
         run: |
@@ -22,10 +19,12 @@ jobs:
 
       - name: Commit and Push
         run: |
-          git add top-langs.svg
-          if git diff --cached --quiet; then
-            echo "No changes to commit"
-          else
-            git commit -m "Update GitHub top languages"
-            git push
-          fi
+              git config --local user.email "action@github.com"
+              git config --local user.name "GitHub Action"
+              git add top-langs.svg
+              if git diff --cached --quiet; then
+                echo "No changes to commit"
+              else
+                git commit -m "Update GitHub top languages"
+                git push https://x-access-token:${{ secrets.GH_TOKEN }}@github.com/BeatriceNakabanda/BeatriceNakabanda.git HEAD:main
+              fi
