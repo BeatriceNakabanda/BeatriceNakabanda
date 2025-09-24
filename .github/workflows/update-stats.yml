@@ -33,3 +33,4 @@ jobs:
             git commit -m "Update GitHub top languages"
             git push --force https://x-access-token:${{ secrets.GH_TOKEN }}@github.com/BeatriceNakabanda/BeatriceNakabanda.git HEAD:stats-update
           fi
+
