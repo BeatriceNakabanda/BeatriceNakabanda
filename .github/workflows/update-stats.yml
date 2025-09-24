@@ -31,5 +31,5 @@ jobs:
             echo "No changes to commit"
           else
             git commit -m "Update GitHub top languages"
-            git push https://x-access-token:${{ secrets.GH_TOKEN }}@github.com/BeatriceNakabanda/BeatriceNakabanda.git stats-update
+            git push --force https://x-access-token:${{ secrets.GH_TOKEN }}@github.com/BeatriceNakabanda/BeatriceNakabanda.git HEAD:stats-update
           fi
