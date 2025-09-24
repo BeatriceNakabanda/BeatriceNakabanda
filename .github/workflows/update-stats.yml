@@ -19,18 +19,21 @@ jobs:
       # Generate the top languages SVG
       - name: Generate Top Languages Stats
         run: |
-          curl -o top-langs.svg "https://github-readme-stats.vercel.app/api/top-langs/?username=BeatriceNakabanda&layout=compact&theme=tokyonight&token=${{ secrets.GH_TOKEN }}"
+            curl -o top-langs.svg "https://github-readme-stats.vercel.app/api/top-langs/?username=BeatriceNakabanda&layout=compact&theme=tokyonight&token=${{ secrets.GH_TOKEN }}"
 
       # Commit and push to the branch
       - name: Commit and Push
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
+          git fetch origin stats-update
+          git checkout stats-update
           git add top-langs.svg
           if git diff --cached --quiet; then
             echo "No changes to commit"
           else
             git commit -m "Update GitHub top languages"
-            git push --force https://x-access-token:${{ secrets.GH_TOKEN }}@github.com/BeatriceNakabanda/BeatriceNakabanda.git HEAD:stats-update
+            git push https://x-access-token:${{ secrets.GH_TOKEN }}@github.com/BeatriceNakabanda/BeatriceNakabanda.git stats-update
           fi
+
 
