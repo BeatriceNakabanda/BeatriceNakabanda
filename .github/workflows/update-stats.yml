@@ -24,10 +24,10 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add top-langs.svg       # <- only this file is staged
+          git add top-langs.svg
           if git diff --cached --quiet; then
             echo "No changes to commit"
           else
             git commit -m "Update GitHub top languages"
-            git push https://x-access-token:${{ secrets.GH_TOKEN }}@github.com/BeatriceNakabanda/BeatriceNakabanda.git HEAD:stats-update
+            git push --force https://x-access-token:${{ secrets.GH_TOKEN }}@github.com/BeatriceNakabanda/BeatriceNakabanda.git HEAD:stats-update
           fi
