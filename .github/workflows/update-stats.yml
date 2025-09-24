@@ -9,17 +9,19 @@ jobs:
   generate-stats:
     runs-on: ubuntu-latest
     steps:
-      # Checkout the repo
+      # Checkout the repo and fetch all branches
       - uses: actions/checkout@v3
         with:
-          persist-credentials: false  # so we can use PAT for push
+          persist-credentials: false
+          fetch-depth: 0        # Fetch full history so we can push
+          ref: stats-update     # Checkout the branch we want to update
 
       # Generate the top languages SVG
       - name: Generate Top Languages Stats
         run: |
           curl -o top-langs.svg "https://github-readme-stats.vercel.app/api/top-langs/?username=BeatriceNakabanda&layout=compact&theme=tokyonight&token=${{ secrets.GH_TOKEN }}"
 
-      # Commit and push to a separate branch
+      # Commit and push to the branch
       - name: Commit and Push
         run: |
           git config --local user.email "action@github.com"
@@ -29,5 +31,5 @@ jobs:
             echo "No changes to commit"
           else
             git commit -m "Update GitHub top languages"
-            git push --force https://x-access-token:${{ secrets.GH_TOKEN }}@github.com/BeatriceNakabanda/BeatriceNakabanda.git HEAD:stats-update
+            git push https://x-access-token:${{ secrets.GH_TOKEN }}@github.com/BeatriceNakabanda/BeatriceNakabanda.git stats-update
           fi
