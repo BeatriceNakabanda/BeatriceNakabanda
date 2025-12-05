@@ -2,7 +2,7 @@
 
 I’m Beatrice Nakabanda, a passionate Software Developer with a heart for impact and a mind for innovation.
 
-I specialise in building high-performance, human-centred mobile and web applications using kotlin, JavaScript, React and React Native Whether it's powering fintech solutions, creating web-based assessment platforms, or designing inclusive digital experiences, I’m driven by the belief that technology should empower everyone—especially underserved communities.
+I specialise in building high-performance, human-centred mobile and web applications using kotlin, JavaScript, React and React Native Whether it's powering fintech solutions, creating web-based assessment platforms, or designing inclusive digital experiences, I’m driven by the belief that technology should empower everyone.
 
 With a strong background in mentoring aspiring developers and coaching young women in tech, I thrive in collaborative environments that value growth, creativity, and real-world problem-solving.
 
