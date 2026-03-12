@@ -6,14 +6,7 @@ With 5+ years of experience in software engineering (FinTech), I bring a strong 
 
 I recently completed a Data Scientist Career Track, covering statistics, machine learning, deep learning, data pipelines, and LLM engineering. I now build projects that combine data analysis, machine learning, and AI-powered applications.
 
-# 🚀 What I’m Working On
-
-🔹 Machine Learning projects  
-🔹 AI & LLM-powered applications  
-🔹 Data analysis and model deployment  
-🔹 Streamlit-based data products  
-
-# 📊 Featured Projects
+# Featured Projects
 
 ### 🤖 AI Interview Simulator
 An AI-powered interview practice tool that simulates HR interviews and provides automated feedback using LLMs.
@@ -29,7 +22,7 @@ Machine learning model that predicts telecom customer churn and allows users to 
 **Live Demo**: [Customer Churn Prediction](https://customer-churn-prediction-t.streamlit.app/)
 **Code**: [Github repo](https://github.com/BeatriceNakabanda/Telco-Customer-Churn-Prediction)
 
-# 🧠 Data Science & AI Stack
+# Data Science & AI Stack
 
 ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?logo=pandas&logoColor=white)
@@ -38,13 +31,13 @@ Machine learning model that predicts telecom customer churn and allows users to 
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?logo=tensorflow&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-336791?logo=postgresql&logoColor=white)
 
-# 🤖 AI & Data Tools
+# AI & Data Tools
 
 ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?logo=streamlit&logoColor=white)
 ![OpenAI](https://img.shields.io/badge/OpenAI-412991?logo=openai&logoColor=white)
 ![Apache Airflow](https://img.shields.io/badge/Airflow-017CEE?logo=apacheairflow&logoColor=white)
 
-# 🧑‍💻 Engineering Background
+# Engineering Background
 
 Before transitioning into Data Science, I worked as a Software Engineer in FinTech, building secure and scalable applications.
 
@@ -57,7 +50,7 @@ Technologies I've worked with:
 
 This background helps me bridge the gap between machine learning models and real-world applications.
 
-# 📫 Connect With Me
+# Connect With Me
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/beatrice-nakabanda-3a1449151/)
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:nakabandabeatrice@gmail.com)
