@@ -45,6 +45,7 @@ Technologies I've worked with:
 
 ![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?logo=kotlin&logoColor=white)
 ![Android](https://img.shields.io/badge/Android-3DDC84?logo=android&logoColor=white)
+![Flutter](https://img.shields.io/badge/Flutter-02569B?logo=flutter&logoColor=white)
 ![React](https://img.shields.io/badge/React-20232A?logo=react&logoColor=61DAFB)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)
 
